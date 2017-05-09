@@ -1,0 +1,26 @@
+.spa-avtr-box{
+	position: absolute;
+	width: 60px;
+	padding: 0 4px;
+	height: 60px;
+	line-height: 50px;
+	border:2px solid #aaa;
+	cursor: pointer;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-radius: 35px;
+}
+
+.spa-avtr-box.spa-x-is-user{
+	border-color: #aaa;
+}
+.spa-avtr-box.spa-x-is-chatee{
+	border-color: #080;
+}
+.spa-avtr-box.spa-x-is-drag{
+	cursor: move;
+	color: #fff;
+	background-color: #666;
+	border-color: #800;
+}
